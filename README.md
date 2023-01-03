@@ -1,3 +1,5 @@
+Credits to [RedstoneRuler](https://github.com/RedstoneRuler) and [CaveJohnson](https://github.com/CaveJohnson376) for writing the original patch.
+
 # Installing OneShot on Linux
 
 If you're using a Linux-based operating system, the Steam version of OneShot won't work out of the box. You can use this small program to patch OneShot.
