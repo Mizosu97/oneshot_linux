@@ -1,4 +1,4 @@
-Credits to [RedstoneRuler](https://github.com/RedstoneRuler) and [CaveJohnson](https://github.com/CaveJohnson376) for writing the original patch.
+Credits to [RedstoneRuler](https://github.com/RedstoneRuler) and [CaveJohnson](https://github.com/CaveJohnson376) for creating the original patch.
 
 # Installing OneShot on Linux
 
