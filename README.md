@@ -25,7 +25,7 @@ To download this program, you'll need to install a program called git. Install g
 Finally, to patch OneShot, run the following command:
 
 ```
-git clone https://github.com/Mizosu97/oneshot_linux && cd oneshot_linux && chmod +x install && install
+git clone https://github.com/Mizosu97/oneshot_linux && cd oneshot_linux && chmod +x install && ./install
 ```
 
 When you get to the part where you need to use the clover app, run the `onejournal` command in your terminal instead.
