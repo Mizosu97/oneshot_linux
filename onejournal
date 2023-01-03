@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sh $HOME/.local/share/Steam/steamapps/common/OneShot/journal.sh
+cd ~/.local/share/Steam/steamapps/common/OneShot/
+sh journal.sh
