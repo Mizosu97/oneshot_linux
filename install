@@ -26,4 +26,4 @@ else
 fi
 
 echo "Fixing libraries"
-./~/.local/share/Steam/steamapps/common/OneShot/fix_libs.sh
+sh ~/.local/share/Steam/steamapps/common/OneShot/fix_libs.sh
