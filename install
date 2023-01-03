@@ -1,19 +1,19 @@
 #!/bin/bash
 
 echo "Installing fix_libs.sh"
-chmod +x fix_libs.sh
 if [ -f $HOME/.local/share/Steam/steamapps/common/OneShot/fix_libs.sh ]; then
 	echo "Already installed"
 else
 	cp fix_libs.sh $HOME/.local/share/Steam/steamapps/common/OneShot/
+	chmod +x $HOME/.local/share/Steam/steamapps/common/OneShot/fix_libs.sh
 fi
 
 echo "Installing journal.sh"
-chmod +x journal.sh
 if [ -f $HOME/.local/share/Steam/steamapps/common/OneShot/journal.sh ]; then
 	echo "Already installed"
 else
 	cp journal.sh $HOME/.local/share/Steam/steamapps/common/OneShot/
+	chmod +x $HOME/.local/share/Steam/steamapps/common/OneShot/journal.sh
 fi
 
 echo "Installing onejournal"
@@ -22,7 +22,8 @@ if [ -f /usr/bin/onejournal ]; then
 	echo "Already installed"
 else
 	sudo cp onejournal /usr/bin/
+	sudo chmod +x /usr/bin/onejournal
 fi
 
 echo "Fixing libraries"
-.$HOME/.local/share/Steam/steamapps/common/OneShot/fix_libs.sh
+./~/.local/share/Steam/steamapps/common/OneShot/fix_libs.sh
