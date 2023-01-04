@@ -2,32 +2,10 @@ Credits to [RedstoneRuler](https://github.com/RedstoneRuler) and [CaveJohnson](h
 
 # Installing OneShot on Linux
 
-If you're using a Linux-based operating system, the Steam version of OneShot won't work out of the box. You can use this small program to patch OneShot.
+If you're using a Linux-based operating system, the Steam version of OneShot won't work out of the box. You can use this small program to make OneShot run.
+
+To simply launch the game, you must go into OneShot's game directory, for most people,
+this is `~/.local/share/Steam/steamapps/common/OneShot/`. You have to simply remove the
+`librt.so.1` for the game to work.
 
 **This guide assumes you have the Steam version of OneShot already installed, and that your system is properly configured and up-to-date.**
-
-## Install git
-
-To download this program, you'll need to install a program called git. Install git using your distribution's native package manager.
-
-###### Debian, Ubuntu, Mint, and derivatives
-`sudo apt install git`
-
-###### Arch, Manjaro, and derivatives
-`sudo pacman -S git`
-
-###### Fedora, and derivatives
-`sudo dnf install git`
-
-###### OpenSuse, and derivatives
-`sudo zypper in git`
-
-## Patch OneShot
-
-Finally, to patch OneShot, run the following command:
-
-```
-git clone https://github.com/Mizosu97/oneshot_linux && cd oneshot_linux && chmod +x install && ./install
-```
-
-When you get to the part where you need to use the clover app, run the `onejournal` command in your terminal instead.
