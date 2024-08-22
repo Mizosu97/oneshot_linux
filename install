@@ -1,11 +1,15 @@
 #!/bin/bash
 
-LIBRARYPATH="$HOME/.local/share/steam"
+LIBRARYPATH="$HOME/.local/share/Steam"
 
 read -p "Where is your steam library located? [${LIBRARYPATH}]: " custompath
 : ${custompath:-$LIBRARYPATH}
 
-echo "Alright, Patching oneshot in $LIBRARYPATH"
+echo "Recording path."
+touch $HOME/.oneshot_linux_loc.txt
+echo $LIBRARYPATH > $HOME/.oneshot_linux_loc.txt
+
+echo "Patching oneshot in $LIBRARYPATH"
 
 echo "Installing fix_libs.sh"
 if [ -f $LIBRARYPATH/steamapps/common/OneShot/fix_libs.sh ]; then
